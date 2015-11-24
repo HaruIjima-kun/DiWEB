@@ -1,0 +1,367 @@
+@import url('imports/reset.css');
+
+/*@import url('imports/fonts.css');*/
+
+@font-face {
+    font-family: 'moderna';
+    src: url('../fonts/Moderna/moderna-webfont.eot');
+    src: url('../fonts/Moderna/moderna-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderna/moderna-webfont.woff2') format('woff2'), url('../fonts/Moderna/moderna-webfont.woff') format('woff'), url('../fonts/Moderna/moderna-webfont.ttf') format('truetype'), url('../fonts/Moderna/moderna-webfont.svg#modernaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    min-width: 960px;
+}
+
+body {
+    background: url(../img/fondo2trans.png);
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#cabecera {
+    width: 100px;
+    height: 1339px;
+    background-color: #1C1C1C;
+    text-align: center;
+    float: left;
+}
+
+#logotipoCab {
+    margin-top: 9.54022236%;
+    /* 10px/1529px*10 = 0.654022236 */
+    width: 80%;
+    /* 80/100*100 = 80 */
+    margin-bottom: 50px;
+    /* 50/1529*100 = 3.2701111874 */
+}
+
+.fondo_enlaces {
+    /*div*/
+    width: 100%;
+    /* 100/100 = 1 */
+    height: 80px;
+    text-align: center;
+    line-height: 100%;
+    /* 100/100 = 1 */
+    position: relative;
+    float: left;
+}
+
+#divHome {
+    background-image: url(../img/header/home_white.png);
+}
+
+#divHome:hover {
+    background-image: url(../img/header/home_inverted_white.png);
+}
+
+#linkHome span {
+    display: none;
+}
+
+#divAbout {
+    background-image: url(../img/header/about_white.png);
+}
+
+#divAbout:hover {
+    background-image: url(../img/header/about_inverted_white.png);
+}
+
+#linkAbout span {
+    display: none;
+}
+
+#divOur {
+    background-image: url(../img/header/proyects2_white.png);
+}
+
+#divOur:hover {
+    background-image: url(../img/header/proyects2_inverted_white.png);
+}
+
+#linkOur span {
+    display: none;
+}
+
+#divContact {
+    background-image: url(../img/header/contact_white.png);
+}
+
+#divContact:hover {
+    background-image: url(../img/header/contact_inverted_white.png);
+}
+
+#linkContact span {
+    display: none;
+}
+
+#logotipoOur {
+    width: 100%;
+    height: 100%;
+}
+
+#linkOur span {
+    display: none;
+}
+
+#logotipoContact {
+    width: 100%;
+    height: 100%;
+}
+
+#linkContact span {
+    display: none;
+}
+
+
+/**** *** *** *** *** *** *** *** Contenido *** *** *** *** *** *** *** ****/
+
+#casaAbout {
+    width: 89.5833333%;
+    /* 860 / 960 */
+    display: block;
+}
+
+#seccion_about {
+    height: 680px;
+}
+
+.texto {
+    font-family: 'lato light';
+    font-size: 13pt;
+}
+
+.titulo_about {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 14.0625%;
+    /* 135/960*100=14.0625%*/
+    font-family: 'moderna';
+    font-size: 18pt;
+}
+
+.texto {
+    margin-left: 17.2916666666%;
+    /* 166/960*100=17.2916666666%*/
+    margin-right: 6.875%;
+    /* 66/960*100=6.875%*/
+}
+
+#our_team {
+    height: 375px;
+}
+
+.people {
+    background-color: #E3E3E3;
+}
+
+#architect1 {
+    float: left;
+    width: 20.8333333333%;
+    /* 200/960*100=20.8333333333%*/
+    margin-left: 8.958333333%;
+    /* 86/960*100=8.958333333%*/
+}
+
+#architect2 {
+    float: left;
+    width: 20.8333333333%;
+    /* 200/960*100=20.8333333333%*/
+    margin-left: 4.583333333%;
+    /* 44/960*100=4.583333333%*/
+}
+
+#architect3 {
+    float: right;
+    width: 20.8333333333%;
+    /* 200/960*100=20.8333333333%*/
+    margin-right: 8.958333333%;
+}
+
+.imagenes_ppl {
+    width: 90%;
+    /* 180/200*100=90%*/
+    margin-left: 5%;
+    /* 5/200*100=5%*/
+    margin-top: 5%;
+    /* 5/200*100=5%*/
+    margin-bottom: 7.5%;
+    /* 15/200*100=7.5%*/
+}
+
+.nombre_arquitecto {
+    font-family: 'moderna';
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.descripcion_arquitecto {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'lato light';
+}
+
+
+/**** *** *** *** *** *** *** *** Pie *** *** *** *** *** *** *** ****/
+
+#pie {
+    font-size: 12pt;
+    height: 254px;
+    background-color: #414F68;
+    color: white;
+    font-family: 'lato';
+}
+
+.titulos_del_pie {
+    margin-top: 30px;
+    /* 30/ */
+    font-family: 'moderna';
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+#pie_izquierdo {
+    margin-left: 6.875%;
+    /* 66/960*100= 6.875 */
+    width: 20.833333333333333333333333333333%;
+    /* 200/960*100 = 20.833333333333333333*/
+    float: left;
+}
+
+#pie_central {
+    margin-left: 6.6666666666666666%;
+    /* 64/960*100=6.6666666666666666%*/
+    float: left;
+    width: 20.833333333333333333333333333333%;
+    /* 200/960*100 = 20.833333333333333333*/
+}
+
+#pie_central_titulo {
+    text-align: center;
+}
+
+#pie_central_boton {
+    border: 2px solid white;
+    padding: 7px 25px 7px 25px;
+    /*
+    7/21*100=33.33333333%
+    25/74*100=33.78378378%
+    */
+    background-color: #414F68;
+    color: white;
+    margin-left: 22.5%;
+    /* 45/200*100= 22.5*/
+    margin-top: 15%;
+    /* 30/200*100= 15*/
+}
+
+#pie_derecho {
+    width: 20.833333333333333333333333333333%;
+    /* 200/960*100 = 20.833333333333333333*/
+    margin-right: 6.875%;
+    /* 66/960*100= 6.875 */
+    float: right;
+}
+
+#pie_derecho_titulo {
+    text-align: right;
+}
+
+#social_icons {
+    margin-top: 21.36752137%;
+    /* 25/117*100= 21.36752137 */
+    float: right;
+}
+
+#social_icons a {
+    margin-left: 10%;
+    /* 20/200*100= 10 */
+}
+
+.size_social_icons {
+    width: 13%;
+    /* 26/200*100= 13 */
+}
+
+@media (min-width: 1366px) {
+    #cabecera {
+        width: 100%;
+        height: 100px;
+        background-color: #1C1C1C;
+        float: left;
+    }
+    #logotipoCab {
+        height: 80px;
+        width: 91px;
+        float: left;
+        margin: 10px 0 10px 20px;
+    }
+    .fondo_enlaces {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    #navegacion {
+        float: right;
+        margin-right: 30px;
+    }
+    .span_visible {
+        font-family: 'moderna';
+        font-size: 15pt;
+    }
+    .contenedor_enlaces {
+        color: white;
+        display: inline;
+        padding: 41px 15px 41px 15px;
+        transition-property: color, background-color;
+        transition-duration: 0.7s;
+    }
+    #linkContact {
+        padding-right: 15px;
+    }
+    .contenedor_enlaces:hover {
+        background-color: white;
+        color: black;
+        transition-property: color, background-color;
+        transition-duration: 0.7s;
+    }
+    .enlaces {
+        line-height: 100px;
+    }
+    #linkHome span {
+        display: inline;
+    }
+    #linkAbout span {
+        display: inline;
+    }
+    #linkOur span {
+        display: inline;
+    }
+    #linkContact span {
+        display: inline;
+    }
+    #casaAbout {
+        margin-left: 50px;
+    }
+    #seccion_about {
+        height: 780px;
+    }
+    .titulo_about {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    #architect2 {
+        margin-left: 100px;
+    }
+    #pie_central {
+        margin-left: 130px;
+    }
+}

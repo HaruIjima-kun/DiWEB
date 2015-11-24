@@ -1,0 +1,375 @@
+@import url('imports/reset.css');
+
+/*@import url('imports/fonts.css');*/
+
+@font-face {
+    font-family: 'moderna';
+    src: url('../fonts/Moderna/moderna-webfont.eot');
+    src: url('../fonts/Moderna/moderna-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderna/moderna-webfont.woff2') format('woff2'), url('../fonts/Moderna/moderna-webfont.woff') format('woff'), url('../fonts/Moderna/moderna-webfont.ttf') format('truetype'), url('../fonts/Moderna/moderna-webfont.svg#modernaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_light';
+    src: url('../fonts/OpenSans/opensans-light-webfont.eot');
+    src: url('../fonts/OpenSans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans/opensans-light-webfont.woff2') format('woff2'), url('../fonts/OpenSans/opensans-light-webfont.woff') format('woff'), url('../fonts/OpenSans/opensans-light-webfont.ttf') format('truetype'), url('../fonts/OpenSans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_semibold';
+    src: url('../fonts/OpenSans/opensans-semibold-webfont.eot');
+    src: url('../fonts/OpenSans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans/opensans-semibold-webfont.woff2') format('woff2'), url('../fonts/OpenSans/opensans-semibold-webfont.woff') format('woff'), url('../fonts/OpenSans/opensans-semibold-webfont.ttf') format('truetype'), url('../fonts/OpenSans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    min-width: 960px;
+}
+
+body {
+    background: url(../img/fondo2trans.png);
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#cabecera {
+    width: 10.41666666666%;
+    /* 100px/960px*100 = 10.41666666666 */
+    height: 1529px;
+    background-color: #1C1C1C;
+    text-align: center;
+    float: left;
+}
+
+#logotipoCab {
+    margin-top: 9.54022236%;
+    /* 10px/1529px*10 = 0.654022236 */
+    width: 80%;
+    /* 80/100*100 = 80 */
+    margin-bottom: 50px;
+    /* 50/1529*100 = 3.2701111874 */
+}
+
+.fondo_enlaces {
+    /*div*/
+    width: 100%;
+    /* 100/100 = 1 */
+    height: 80px;
+    text-align: center;
+    line-height: 100%;
+    /* 100/100 = 1 */
+    position: relative;
+    float: left;
+}
+
+#divHome {
+    background-image: url(../img/header/home_white.png);
+}
+
+#divHome:hover {
+    background-image: url(../img/header/home_inverted_white.png);
+}
+
+#linkHome span {
+    display: none;
+}
+
+#divAbout {
+    background-image: url(../img/header/about_white.png);
+}
+
+#divAbout:hover {
+    background-image: url(../img/header/about_inverted_white.png);
+}
+
+#linkAbout span {
+    display: none;
+}
+
+#divOur {
+    background-image: url(../img/header/proyects2_white.png);
+}
+
+#divOur:hover {
+    background-image: url(../img/header/proyects2_inverted_white.png);
+}
+
+#linkOur span {
+    display: none;
+}
+
+#divContact {
+    background-image: url(../img/header/contact_white.png);
+}
+
+#divContact:hover {
+    background-image: url(../img/header/contact_inverted_white.png);
+}
+
+#linkContact span {
+    display: none;
+}
+
+#linkOur span {
+    display: none;
+}
+
+#logotipoContact {
+    width: 100%;
+    height: 100%;
+}
+
+#linkContact span {
+    display: none;
+}
+
+
+/**** *** *** *** *** *** *** *** Contenido *** *** *** *** *** *** *** ****/
+
+#casaProyects {
+    width: 89.583333333333333333%;
+    /* 860/960*100=89.583333333% */
+    display: block;
+}
+
+#proyectos {
+    height: 1275px;
+}
+
+.tamanio_proyects {
+    width: 39.58333333333333333%;
+    /* 380/960*100=39.58333333333 */
+    margin-top: 25px;
+    display: block;
+}
+
+.tamanio_proyects:hover {
+    display: inherit;
+}
+
+.left {
+    background-color: #E5E5E5;
+    float: left;
+    margin-left: 33px;
+}
+
+.right {
+    background-color: #E5E5E5;
+    float: right;
+    margin-right: 33px;
+}
+
+.imagenes_proyectos {
+    /* margin: 10px;*/
+    width: 99.73684211%;
+    /* 360/380*100 = 94.73684211 */
+    display: block;
+}
+
+.imagenes_proyectos:hover {
+    opacity: 0.55;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    position: relative;
+    float: left;
+    width: 94.73684211%;
+    /*360/380*100=94.73684211*/
+    height: 160px;
+    overflow: hidden;
+}
+
+.info {
+    font-family: 'open_sans_light';
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 160px;
+    color: #FFF;
+}
+
+li:hover .info {
+    display: block;
+}
+
+.info > h3 {
+    font-family: 'open_sans_semibold';
+    font-size: 14pt;
+    margin: 5px 5px 15px 5px;
+}
+
+.info > p {
+    margin: 0px 5px 15px 5px;
+}
+
+
+/**** *** *** *** *** *** *** *** Pie *** *** *** *** *** *** *** ****/
+
+#pie {
+    font-size: 12pt;
+    height: 254px;
+    background-color: #414F68;
+    color: white;
+    font-family: 'lato';
+}
+
+.titulos_del_pie {
+    margin-top: 30px;
+    /* 30/24*100= */
+    font-family: 'moderna';
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+#pie_izquierdo {
+    margin-left: 6.875%;
+    /* 66/960*100= 6.875 */
+    width: 20.833333333333333333333333333333%;
+    /* 200/960*100 = 20.833333333333333333*/
+    float: left;
+}
+
+#pie_central {
+    margin-left: 6.6666666666666666%;
+    /* 64/960*100=6.6666666666666666%*/
+    float: left;
+    width: 20.833333333333333333333333333333%;
+    /* 200/960*100 = 20.833333333333333333*/
+}
+
+#pie_central_titulo {
+    text-align: center;
+}
+
+#pie_central_boton {
+    border: 2px solid white;
+    padding: 7px 25px 7px 25px;
+    /*
+    7/21*100=33.33333333%
+    25/74*100=33.78378378%
+    */
+    background-color: #414F68;
+    color: white;
+    margin-left: 22.5%;
+    /* 45/200*100= 22.5*/
+    margin-top: 15%;
+    /* 30/200*100= 15*/
+}
+
+#pie_derecho {
+    width: 20.833333333333333333333333333333%;
+    /* 200/960*100 = 20.833333333333333333*/
+    margin-right: 6.875%;
+    /* 66/960*100= 6.875 */
+    float: right;
+}
+
+#pie_derecho_titulo {
+    text-align: right;
+}
+
+#social_icons {
+    margin-top: 21.36752137%;
+    /* 25/117*100= 21.36752137 */
+    float: right;
+}
+
+#social_icons a {
+    margin-left: 10%;
+    /* 20/200*100= 10 */
+}
+
+.size_social_icons {
+    width: 13%;
+    /* 26/200*100= 13 */
+}
+
+@media (min-width: 1366px) {
+    #cabecera {
+        width: 100%;
+        height: 100px;
+        background-color: #1C1C1C;
+        float: left;
+    }
+    #logotipoCab {
+        height: 80px;
+        width: 91px;
+        float: left;
+        margin: 10px 0 10px 20px;
+    }
+    .fondo_enlaces {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    #navegacion {
+        float: right;
+        margin-right: 30px;
+    }
+    .span_visible {
+        font-family: 'moderna';
+        font-size: 15pt;
+    }
+    .contenedor_enlaces {
+        color: white;
+        display: inline;
+        padding: 41px 15px 41px 15px;
+        transition-property: color, background-color;
+        transition-duration: 0.7s;
+    }
+    #linkContact {
+        padding-right: 15px;
+    }
+    .contenedor_enlaces:hover {
+        background-color: white;
+        transition-property: color, background-color;
+        transition-duration: 0.7s;
+        color: black;
+    }
+    .enlaces {
+        line-height: 100px;
+    }
+    #linkHome span {
+        display: inline;
+    }
+    #linkAbout span {
+        display: inline;
+    }
+    #linkOur span {
+        display: inline;
+    }
+    #linkContact span {
+        display: inline;
+    }
+    #casaProyects {
+        margin-left: 50px;
+    }
+    .left {
+        margin-left: 80px;
+    }
+    .right {
+        margin-right: 80px;
+    }
+    #proyectos {
+        height: 1375px;
+    }
+    #pie_central {
+        margin-left: 130px;
+    }
+}
