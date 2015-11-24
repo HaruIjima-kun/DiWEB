@@ -72,10 +72,14 @@ body {
 
 #divHome {
     background-image: url(../img/header/home_white.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #divHome:hover {
     background-image: url(../img/header/home_inverted_white.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #linkHome span {
@@ -84,10 +88,14 @@ body {
 
 #divAbout {
     background-image: url(../img/header/about_white.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #divAbout:hover {
     background-image: url(../img/header/about_inverted_white.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #linkAbout span {
@@ -95,11 +103,15 @@ body {
 }
 
 #divOur {
-    background-image: url(../img/header/proyects2_white.png);
+    background-image: url(../img/header/proyects_white.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #divOur:hover {
-    background-image: url(../img/header/proyects2_inverted_white.png);
+    background-image: url(../img/header/proyects_inverted_white.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #linkOur span {
@@ -107,11 +119,15 @@ body {
 }
 
 #divContact {
-    background-image: url(../img/header/contact_white.png);
+    background-image: url(../img/header/contact_white2.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #divContact:hover {
-    background-image: url(../img/header/contact_inverted_white.png);
+    background-image: url(../img/header/contact_inverted_white2.png);
+    transition-property: background-image;
+    transition-duration: 0.7s;
 }
 
 #linkContact span {
